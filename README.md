@@ -73,11 +73,11 @@ make
 
 ## Running the Application from Linux Terminal
 
-- **Run the CLI app :** "./ticket_cli"
-- **Run the GUI app :** "./ticket_gui" 
+- Run the CLI app : ./ticket_cli
+- Run the GUI app : ./ticket_gui 
 
 ---
 
 ## Running Unit Tests
 
-- **Run unit tests executable :** "./unit_tests"
+- Run unit tests executable : ./unit_tests

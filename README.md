@@ -22,6 +22,7 @@ A comprehensive ticket reservation system implemented in modern C++17, featuring
 
 This project simulates a ticket reservation system where users can book, cancel, and view seats. It demonstrates clean separation of concerns with core business logic encapsulated in a reusable `ReservationSystem` class. The UI is provided both as a terminal-based menu and a modern GUI using Dear ImGui with GLFW and OpenGL backend.
 
+![Ticket Reservation GUI](images/ticketreservegui.jpg)
 ---
 
 ## Features
@@ -101,3 +102,6 @@ TicketReserve/
 ## Running Unit Tests
 
 - Run unit tests executable : ./unit_tests
+
+  
+![Ticket Reservation Unit Tests](images/ticketreserve_gtests.jpg)

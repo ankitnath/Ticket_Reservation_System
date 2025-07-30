@@ -37,16 +37,36 @@ This project simulates a ticket reservation system where users can book, cancel,
 ## Project Structure
 
 TicketReserve/
-├── CMakeLists.txt # Build configuration
-├── main.cpp # CLI application entry point
-├── gui_main.cpp # GUI application entry point
-├── reservation_system.cpp # Core reservation logic implementation
-├── reservation_system.hpp # Reservation system header
-├── gui.cpp # GUI implementation (Dear ImGui)
-├── gui.hpp # GUI declarations
-├── imgui/ # Dear ImGui source and backends
-├── test/
-│ └── test_reservation_system.cpp # Google Test unit tests
+├── CMakeLists.txt
+├── README.md
+├── gui.cpp
+├── gui.hpp
+├── gui_main.cpp
+├── imgui
+│   ├── backends
+│   │   ├── imgui_impl_glfw.cpp
+│   │   ├── imgui_impl_glfw.h
+│   │   ├── imgui_impl_opengl3.cpp
+│   │   ├── imgui_impl_opengl3.h
+│   │   └── imgui_impl_opengl3_loader.h
+│   ├── imconfig.h
+│   ├── imgui.cpp
+│   ├── imgui.h
+│   ├── imgui_demo.cpp
+│   ├── imgui_draw.cpp
+│   ├── imgui_internal.h
+│   ├── imgui_tables.cpp
+│   ├── imgui_widgets.cpp
+│   ├── imstb_rectpack.h
+│   ├── imstb_textedit.h
+│   └── imstb_truetype.h
+├── main.cpp
+├── reservation_system.cpp
+├── reservation_system.hpp
+├── structure.txt
+└── test
+    ├── CMakeLists.txt
+    └── test_reserve_system.cpp
 
 ---
 
@@ -63,11 +83,11 @@ TicketReserve/
 
 ## Building the Project
 
-```bash
-mkdir build
-cd build
-cmake ..
-make
+
+- mkdir build
+- cd build
+- cmake ..
+- make
 
 ---
 

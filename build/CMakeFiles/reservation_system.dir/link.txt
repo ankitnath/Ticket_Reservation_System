@@ -1,0 +1,2 @@
+/usr/bin/ar qc libreservation_system.a CMakeFiles/reservation_system.dir/reservation_system.cpp.o
+/usr/bin/ranlib libreservation_system.a

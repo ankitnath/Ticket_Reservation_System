@@ -1,0 +1,7 @@
+add_test( ReservationTest.BookSeatSuccess /mnt/d/C_plus_plus/TicketReserve/build/unit_tests [==[--gtest_filter=ReservationTest.BookSeatSuccess]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ReservationTest.BookSeatSuccess PROPERTIES WORKING_DIRECTORY /mnt/d/C_plus_plus/TicketReserve/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( ReservationTest.DoubleBookFails /mnt/d/C_plus_plus/TicketReserve/build/unit_tests [==[--gtest_filter=ReservationTest.DoubleBookFails]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ReservationTest.DoubleBookFails PROPERTIES WORKING_DIRECTORY /mnt/d/C_plus_plus/TicketReserve/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( ReservationTest.CancelBooking /mnt/d/C_plus_plus/TicketReserve/build/unit_tests [==[--gtest_filter=ReservationTest.CancelBooking]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ReservationTest.CancelBooking PROPERTIES WORKING_DIRECTORY /mnt/d/C_plus_plus/TicketReserve/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( unit_tests_TESTS ReservationTest.BookSeatSuccess ReservationTest.DoubleBookFails ReservationTest.CancelBooking)

@@ -1,0 +1,5 @@
+add_executable(run_tests test_reserve_system.cpp ../reservation_system.cpp)
+target_include_directories(run_tests PRIVATE ../)
+find_package(GTest REQUIRED)
+target_link_libraries(run_tests GTest::gtest_main)
+add_test(NAME AllTests COMMAND run_tests)

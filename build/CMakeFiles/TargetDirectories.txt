@@ -1,0 +1,7 @@
+/mnt/d/C_plus_plus/TicketReserve/build/CMakeFiles/reservation_system.dir
+/mnt/d/C_plus_plus/TicketReserve/build/CMakeFiles/ticket_cli.dir
+/mnt/d/C_plus_plus/TicketReserve/build/CMakeFiles/ticket_gui.dir
+/mnt/d/C_plus_plus/TicketReserve/build/CMakeFiles/unit_tests.dir
+/mnt/d/C_plus_plus/TicketReserve/build/CMakeFiles/test.dir
+/mnt/d/C_plus_plus/TicketReserve/build/CMakeFiles/edit_cache.dir
+/mnt/d/C_plus_plus/TicketReserve/build/CMakeFiles/rebuild_cache.dir
